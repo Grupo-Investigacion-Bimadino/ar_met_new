@@ -11,6 +11,7 @@ export const useStoreConceptos = defineStore('conceptos', {
   state: () => ({
     conceptos: [] as Concepto[],     
     concepto: null as Concepto | null 
+    //comentario
   }),
 
   actions: {
