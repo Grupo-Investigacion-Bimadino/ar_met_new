@@ -6,6 +6,7 @@ interface Actividad {
   descripcion: string
   duracion: string
   nivel: string
+  tipo: string
 }
 
 export const useStoreActividades = defineStore('actividades', {

@@ -2,24 +2,27 @@ export default defineEventHandler((event) => {
   const actividades = [
     {
       id: 1,
-      titulo: "Exploración del Metaverso",
-      descripcion: "Los estudiantes ingresan a un entorno virtual y exploran diferentes escenarios digitales.",
-      duracion: "30 minutos",
-      nivel: "Intermedio"
+      titulo: "Quiz: Conceptos del Metaverso",
+      descripcion: "Pon a prueba tus conocimientos sobre metaverso, realidad aumentada y tecnologías inmersivas.",
+      duracion: "15 minutos",
+      nivel: "Básico",
+      tipo: "quiz"
     },
     {
       id: 2,
-      titulo: "Realidad Aumentada con Dispositivos Móviles",
-      descripcion: "Actividad práctica donde los alumnos utilizan sus celulares para visualizar modelos 3D en el entorno real.",
-      duracion: "20 minutos",
-      nivel: "Básico"
+      titulo: "Empareja Conceptos y Definiciones",
+      descripcion: "Arrastra y conecta cada concepto del metaverso con su definición correcta.",
+      duracion: "10 minutos",
+      nivel: "Básico",
+      tipo: "emparejar"
     },
     {
       id: 3,
-      titulo: "Creación de un Avatar Propio",
-      descripcion: "Los participantes diseñan y personalizan su propio avatar para interactuar en el metaverso.",
-      duracion: "25 minutos",
-      nivel: "Básico"
+      titulo: "Construye tu Avatar Virtual",
+      descripcion: "Personaliza tu avatar eligiendo características físicas, ropa y accesorios.",
+      duracion: "15 minutos",
+      nivel: "Básico",
+      tipo: "avatar-builder"
     }
   ];
 

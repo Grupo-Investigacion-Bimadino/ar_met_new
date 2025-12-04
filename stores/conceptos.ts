@@ -5,13 +5,15 @@ interface Concepto {
   nombre: string
   descripcion: string
   categoria: string
+  detalles: string
+  ejemplos: string[]
+  imagen: string
 }
 
 export const useStoreConceptos = defineStore('conceptos', {
   state: () => ({
     conceptos: [] as Concepto[],     
     concepto: null as Concepto | null 
-    //comentario
   }),
 
   actions: {
@@ -37,4 +39,3 @@ export const useStoreConceptos = defineStore('conceptos', {
     }
   }
 })
-

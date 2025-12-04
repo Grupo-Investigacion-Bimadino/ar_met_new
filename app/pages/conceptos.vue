@@ -12,16 +12,15 @@
           class="mx-auto d-block"
         />
         
-        <ConceptosCarousel 
+        <ConceptosCarouselMejorado 
           v-else
           :conceptos="storeConceptos.conceptos"
-          :autoPlayDelay="5000"
+          :autoPlayDelay="7000"
         />
       </v-container>
     </v-main>
   </v-app>
 </template>
-
 
 <script setup>
 import { useStoreConceptos } from '~~/stores/conceptos'
